@@ -1,0 +1,32 @@
+{
+  "name": "resize-and-crop-images",
+  "version": "1.0.0",
+  "description": "Un script de Node.js para redimensionar y recortar imágenes manteniendo la estructura de subdirectorios.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js 480x480",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manufosela/tu-repositorio.git"
+  },
+  "keywords": [
+    "image",
+    "resize",
+    "crop",
+    "sharp",
+    "nodejs"
+  ],
+  "author": "Mánu Fosela<manufosela@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/manufoselatu-repositorio/issues"
+  },
+  "dependencies": {
+    "sharp": "^0.33.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
